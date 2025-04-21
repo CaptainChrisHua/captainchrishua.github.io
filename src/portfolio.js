@@ -128,7 +128,7 @@ const educationInfo = {
       schoolName: "University of Southern California",
       logo: require("./assets/images/usc-logo.png"),
       subHeader: "Master of Science in Industrial and System Engineering",
-      duration: "January 2023 - December 2024",
+      duration: "January 2023 - December 2024"
       // desc: "Participated in the research of XXX and published 3 papers.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
