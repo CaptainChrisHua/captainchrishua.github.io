@@ -44,35 +44,26 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.leetcode ? (
+      {socialMediaLinks.gitlab ? (
         <a
-          href={socialMediaLinks.leetcode}
-          className="icon-button leetcode"
+          href={socialMediaLinks.gitlab}
+          className="icon-button gitlab"
           target="_blank"
           rel="noopener noreferrer"
         >
-          {/* Leetcode 没有 Font Awesome 图标，使用 SVG 图标 */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            fill="currentColor"
-          >
-            <path d="M20.9 6.6l-2.5-2.5c-.2-.2-.4-.3-.7-.3s-.5.1-.7.3l-2.1 2.1 3.9 3.9-8.8 8.8L5.1 12l5.4-5.4-1.4-1.4L3.7 12l8.8 8.8L21 12c.4-.4.4-1 0-1.4l-3.2-3.2 3.1-3.1c.4-.4.4-1 0-1.4z" />
-          </svg>
+          <i className="fab fa-gitlab"></i>
           <span></span>
         </a>
       ) : null}
 
-      {socialMediaLinks.youtube ? (
+      {socialMediaLinks.facebook ? (
         <a
-          href={socialMediaLinks.youtube}
-          className="icon-button youtube"
+          href={socialMediaLinks.facebook}
+          className="icon-button facebook"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i className="fab fa-youtube"></i>
+          <i className="fab fa-facebook-f"></i>
           <span></span>
         </a>
       ) : null}

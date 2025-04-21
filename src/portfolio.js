@@ -35,11 +35,9 @@ const socialMediaLinks = {
   github: "https://github.com/captainchrishua",
   linkedin: "https://www.linkedin.com/in/chrishua0919/",
   gmail: "job.chrishua0@gmail.com",
-  leetcode: "https://gitlab.com/saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  kaggle: "https://gitlab.com/saadpasta",
-  youtube: "https://gitlab.com/saadpasta",
-  instagram: "https://gitlab.com/saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  // kaggle: "https://gitlab.com/saadpasta",
+  // instagram: "https://gitlab.com/saadpasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
