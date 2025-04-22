@@ -51,54 +51,53 @@ const skillsSection = {
   skills: [
     emoji(
       "⚡ Engineered a scalable enterprise recommendation engine, processing <strong>" +
-      "8M+ daily requests at 2000 TPS</strong> using multi-stage algorithms (retrieval, ranking)" +
-      "on high-performance cloud infrastructure (192 vCPUs, 192GB RAM)"
+        "8M+ daily requests at 2000 TPS</strong> using multi-stage algorithms (retrieval, ranking)" +
+        "on high-performance cloud infrastructure (192 vCPUs, 192GB RAM)"
     ),
     emoji(
       "⚡ Designed an MLOps workflow replacing Cloudera, saving " +
-      "<strong>$300K annually</strong> in licensing cost"
+        "<strong>$300K annually</strong> in licensing cost"
     ),
     emoji(
       "⚡ Developed a healthcare platform serving " +
-      "<strong>40+ facilities and 100K+ users</strong>"
+        "<strong>40+ facilities and 100K+ users</strong>"
     )
   ],
 
   softwareSkills: [
     // Programming Languages
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
-    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
-    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
-    { skillName: "C/C++", fontAwesomeClassname: "fas fa-code" }, // 通用代码图标
-    { skillName: "Swift", fontAwesomeClassname: "fab fa-swift" },
+    {skillName: "Java", fontAwesomeClassname: "fab fa-java"},
+    {skillName: "Python", fontAwesomeClassname: "fab fa-python"},
+    {skillName: "JavaScript", fontAwesomeClassname: "fab fa-js"},
+    {skillName: "C/C++", fontAwesomeClassname: "fas fa-code"}, // 通用代码图标
+    {skillName: "Swift", fontAwesomeClassname: "fab fa-swift"},
 
     // Frontend
-    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
-    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
-    { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
-    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js" },
+    {skillName: "HTML5", fontAwesomeClassname: "fab fa-html5"},
+    {skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt"},
+    {skillName: "React.js", fontAwesomeClassname: "fab fa-react"},
+    {skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs"},
+    {skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js"},
 
     // DevOps & Tools
-    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
-    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
-    { skillName: "GCP", fontAwesomeClassname: "fab fa-google" }, // 替代 GCP 图标
-    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
-    { skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab" },
-    { skillName: "NPM", fontAwesomeClassname: "fab fa-npm" },
-    { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
-    { skillName: "Slack", fontAwesomeClassname: "fab fa-slack" },
+    {skillName: "Docker", fontAwesomeClassname: "fab fa-docker"},
+    {skillName: "AWS", fontAwesomeClassname: "fab fa-aws"},
+    {skillName: "GCP", fontAwesomeClassname: "fab fa-google"}, // 替代 GCP 图标
+    {skillName: "Git", fontAwesomeClassname: "fab fa-git"},
+    {skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab"},
+    {skillName: "NPM", fontAwesomeClassname: "fab fa-npm"},
+    {skillName: "Jira", fontAwesomeClassname: "fab fa-jira"},
+    {skillName: "Slack", fontAwesomeClassname: "fab fa-slack"},
 
     // Databases (通用图标)
-    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "Redis", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
-    { skillName: "ElasticSearch", fontAwesomeClassname: "fas fa-search" } // 搜索图标代替
+    {skillName: "MySQL", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "Redis", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "MongoDB", fontAwesomeClassname: "fas fa-database"},
+    {skillName: "ElasticSearch", fontAwesomeClassname: "fas fa-search"} // 搜索图标代替
   ],
 
   display: true
 };
-
 
 // Education Section
 
@@ -148,7 +147,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Gnosis AI",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/Gnosis AI.png"),
       date: "October 2024 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -234,7 +233,6 @@ const Projects = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Achievement Section
 // Include certificates, talks etc

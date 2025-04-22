@@ -55,7 +55,7 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    dangerouslySetInnerHTML={{ __html: skills }}
+                    {skills}
                   </p>
                 );
               })}
