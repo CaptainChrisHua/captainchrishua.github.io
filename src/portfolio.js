@@ -37,7 +37,7 @@ const socialMediaLinks = {
   gmail: "job.chrishua0@gmail.com",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // kaggle: "https://gitlab.com/saadpasta",
-  // instagram: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -47,76 +47,48 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full Stack Software Engineer with 4 years of work experience",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Built a distributed inference service handling 8M+ daily requests at 2000 TPS"),
+    emoji("⚡ Designed an MLOps pipeline that saved $300K annually in cloud cost"),
+    emoji("⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    // Programming Languages
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+    { skillName: "C/C++", fontAwesomeClassname: "fas fa-code" }, // 通用代码图标
+    { skillName: "Swift", fontAwesomeClassname: "fab fa-swift" },
+
+    // Frontend
+    { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
+    { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
+    { skillName: "React.js", fontAwesomeClassname: "fab fa-react" },
+    { skillName: "Vue.js", fontAwesomeClassname: "fab fa-vuejs" },
+    { skillName: "Node.js", fontAwesomeClassname: "fab fa-node-js" },
+
+    // DevOps & Tools
+    { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "GCP", fontAwesomeClassname: "fab fa-google" }, // 替代 GCP 图标
+    { skillName: "Git", fontAwesomeClassname: "fab fa-git" },
+    { skillName: "GitLab", fontAwesomeClassname: "fab fa-gitlab" },
+    { skillName: "NPM", fontAwesomeClassname: "fab fa-npm" },
+    { skillName: "Jira", fontAwesomeClassname: "fab fa-jira" },
+    { skillName: "Slack", fontAwesomeClassname: "fab fa-slack" },
+
+    // Databases (通用图标)
+    { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Redis", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "ElasticSearch", fontAwesomeClassname: "fas fa-search" } // 搜索图标代替
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
+
 
 // Education Section
 
