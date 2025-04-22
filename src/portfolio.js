@@ -142,35 +142,48 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set to false to hide this section
   experience: [
     {
       role: "Software Engineer",
-      company: "Gnosis AI",
+      company: "Gnosis AI, LLC",
       companylogo: require("./assets/images/Gnosis AI.png"),
       date: "October 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Led the development of scalable backend services and real-time recommendation platforms in FinTech and media domains.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built a high-concurrency financial news platform with Java, Spring Boot, and Redis, reducing DB load by 18% during peak traffic",
+        "Improved system scalability using Kafka-based batch notifications and async pipelines, enabling real-time delivery",
+        "Developed a real-time article recommendation engine with Spark Streaming, Kafka, and Hive, boosting user engagement by 40%",
+        "Replaced MySQL-based search with Elasticsearch, enabling multi-filter queries and reducing latency by 75%"
       ]
     },
     {
       role: "Software Engineer",
-      company: "Qizhidao",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "December 2021 – Jan 2023",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Qizhidao Network Technology",
+      companylogo: require("./assets/images/Qizhidao.png"),
+      date: "December 2021 – January 2023",
+      desc: "Architected and optimized large-scale enterprise recommendation systems and algorithm platforms.",
+      descBullets: [
+        "Optimized peer recommendation platform built with Python FastAPI, reducing memory usage by 40% and increasing peak TPS by 50%",
+        "Managed data pipeline with PostgreSQL + ElasticSearch, leveraging NLP and custom algorithms for 97% match accuracy",
+        "Led development of internal Algorithm Pipeline Platform using Vue.js, Golang/Gin, and Kubernetes, saving $300K/year"
+      ]
     },
     {
       role: "Software Engineer",
       company: "FosunCare",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/Fosun.jpeg"),
       date: "July 2020 – October 2021",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Delivered a full-stack Healthcare Management Platform used by 40+ nursing homes and 100K+ users.",
+      descBullets: [
+        "Built B2B and B2C modules (RBAC, Scheduling, Medication Tracking) with Java, Spring Boot, Vue.js, and Element UI",
+        "Collaborated in an agile team of 10 using JIRA for task tracking and delivery",
+        "Deployed scalable services on Alibaba Cloud using Docker and Kubernetes"
+      ]
     }
   ]
 };
+
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
