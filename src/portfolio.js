@@ -216,7 +216,7 @@ const Projects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"), // 建议换成RBAC相关Logo或界面截图
+      image: require("./assets/images/rbac1.png"), // 建议换成RBAC相关Logo或界面截图
       projectName: "General RBAC Platform",
       projectDesc:
         "A comprehensive RBAC system built with Java, Spring Boot, React.js, and Docker, supporting operation logs, permission management, and RESTful APIs. Integrated Spring Security and EhCache, reducing latency by 35%. Deployed via Docker on AWS EC2.",
