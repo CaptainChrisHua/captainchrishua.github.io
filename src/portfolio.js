@@ -175,45 +175,56 @@ const openSource = {
 
 const Projects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Full-stack products & tools I architected, built, and deployed.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/saayaHealthLogo.webp"), // 建议替换成你的Code Review Copilot Logo
       projectName: "Code Review Copilot",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc:
+        "Intelligent code review assistant powered by ChatGPT and Github Actions. Improved review efficiency by 60% via an automated pipeline—fetching git diff, invoking LLMs for code review, storing results, and sending notifications. SDK packaged for seamless integration.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "LA Moments",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View on GitHub",
+          url: "https://github.com/yourusername/code-review-copilot" // 如果有GitHub仓库，放GitHub地址，否则删掉此按钮
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "General RBAC",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/la-moments"), // 建议换成LA-Moments截图
+      projectName: "LA-Moments Photo Blogging Platform",
+      projectDesc:
+        "A full-stack MERN platform for photography blogging, featuring Google OAuth login, Redux state management, and responsive UI. Deployed on AWS EC2, supporting post creation, browsing, and interaction. CI/CD automated with GitHub Actions.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://35.184.102.7"
+        },
+        {
+          name: "View on GitHub",
+          url: "https://github.com/captainchrishua/la-moments" // 如果有GitHub仓库可加，没有可删
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"), // 建议换成RBAC相关Logo或界面截图
+      projectName: "General RBAC Platform",
+      projectDesc:
+        "A comprehensive RBAC system built with Java, Spring Boot, React.js, and Docker, supporting operation logs, permission management, and RESTful APIs. Integrated Spring Security and EhCache, reducing latency by 35%. Deployed via Docker on AWS EC2.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://35.184.102.7:8081/authman/"
+        },
+        {
+          name: "View on GitHub",
+          url: "https://github.com/captainchrishua/rbac-platform" // 如果有GitHub仓库可加，没有可删
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
