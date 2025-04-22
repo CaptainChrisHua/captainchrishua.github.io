@@ -49,9 +49,19 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Full Stack Software Engineer with 4 years of work experience",
   skills: [
-    emoji("⚡ Built a distributed inference service handling 8M+ daily requests at 2000 TPS"),
-    emoji("⚡ Designed an MLOps pipeline that saved $300K annually in cloud cost"),
-    emoji("⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users")
+    emoji(
+      "⚡ Engineered a scalable enterprise recommendation engine, processing <strong>" +
+      "8M+ daily requests at 2000 TPS</strong> using multi-stage algorithms (retrieval, ranking)" +
+      "on high-performance cloud infrastructure (192 vCPUs, 192GB RAM)"
+    ),
+    emoji(
+      "⚡ Designed an MLOps workflow replacing Cloudera, saving " +
+      "<strong>$300K annually</strong> in licensing cost"
+    ),
+    emoji(
+      "⚡ Developed a healthcare platform serving " +
+      "<strong>40+ facilities and 100K+ users</strong>"
+    )
   ],
 
   softwareSkills: [
@@ -190,7 +200,7 @@ const Projects = {
       ]
     },
     {
-      image: require("./assets/images/la-moments"), // 建议换成LA-Moments截图
+      image: require("./assets/images/la-moments.jpg"), // 建议换成LA-Moments截图
       projectName: "LA-Moments Photo Blogging Platform",
       projectDesc:
         "A full-stack MERN platform for photography blogging, featuring Google OAuth login, Redux state management, and responsive UI. Deployed on AWS EC2, supporting post creation, browsing, and interaction. CI/CD automated with GitHub Actions.",
