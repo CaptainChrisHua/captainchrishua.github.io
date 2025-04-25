@@ -2,33 +2,31 @@
 
 .card-image {
   width: 100%;
-  max-width: 100%;
   height: auto;
   border-radius: 8px;
+  object-fit: contain;
   box-shadow: $lightBoxShadowDark 0 4px 12px -5px;
 }
 .card-title {
-  color: $titleColor;
   font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0 0 1rem 0;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
 .card-subtitle {
-  color: $cardSubtitle;
   font-size: 1rem;
   line-height: 1.8;
-  margin-bottom: 1rem;
+  color: $cardSubtitle;
 }
 .project-card {
   display: flex;
-  flex-direction: row; // ✅ 改成水平排列
+  flex-direction: row; // ✅ 横向排列图文
+  gap: 2rem;
   align-items: flex-start;
+  margin-bottom: 3rem;
   background-color: $lightBackground2;
   padding: 2rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  margin-bottom: 2rem;
-  gap: 2rem;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -46,7 +44,7 @@
 
 .project-detail {
   flex: 1;
-  text-align: left; // ✅ 左对齐
+  text-align: left;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -55,12 +53,14 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
-  flex: 0 0 280px; // 固定宽度
+  flex: 0 0 260px;
+  max-width: 260px;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
+
 
 .projects-container {
   display: flex;
@@ -86,23 +86,13 @@
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .project-image {
-    width: 100%;
+    max-width: 100%;
   }
 
   .project-detail {
     text-align: center;
-  }
-
-  .card-title {
-    font-size: 1.3rem;
-  }
-
-  .card-subtitle {
-    font-size: 1rem;
   }
 }
