@@ -143,7 +143,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Gnosis AI, LLC",
-      companylogo: require("./assets/images/Gnosis AI.png"),
+      companylogo: require("./assets/images/Gnosis AI logo 3-2.png"),
       date: "October 2024 – Present",
       desc: "Led the development of scalable backend services and real-time recommendation platforms in FinTech and media domains.",
       descBullets: [
@@ -203,12 +203,12 @@ const Projects = {
       footerLink: [
         {
           name: "View on GitHub",
-          url: "https://github.com/yourusername/code-review-copilot" // 如果有GitHub仓库，放GitHub地址，否则删掉此按钮
+          url: "https://github.com/captainchrishua/code-review-copilot" // 如果有GitHub仓库，放GitHub地址，否则删掉此按钮
         }
       ]
     },
     {
-      image: require("./assets/images/la-moments.jpg"), // 建议换成LA-Moments截图
+      image: require("./assets/images/la-moments.png"), // 建议换成LA-Moments截图
       projectName: "LA-Moments Photo Blogging Platform",
       projectDesc:
         "A full-stack MERN platform for photography blogging, featuring Google OAuth login, Redux state management, and responsive UI. Deployed on AWS EC2, supporting post creation, browsing, and interaction. CI/CD automated with GitHub Actions.",
