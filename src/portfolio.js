@@ -50,17 +50,13 @@ const skillsSection = {
   subTitle: "Full Stack Software Engineer with 4 years of work experience",
   skills: [
     emoji(
-      "⚡ Engineered a scalable enterprise recommendation engine, processing <strong>" +
-        "8M+ daily requests at 2000 TPS</strong> using multi-stage algorithms (retrieval, ranking)" +
-        "on high-performance cloud infrastructure (192 vCPUs, 192GB RAM)"
+      "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
     ),
     emoji(
-      "⚡ Designed an MLOps workflow replacing Cloudera, saving " +
-        "<strong>$300K annually</strong> in licensing cost"
+      "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
     ),
     emoji(
-      "⚡ Developed a healthcare platform serving " +
-        "<strong>40+ facilities and 100K+ users</strong>"
+      "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
     )
   ],
 
