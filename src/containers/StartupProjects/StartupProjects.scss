@@ -3,9 +3,9 @@
 .card-image {
   width: 100%;
   height: auto;
-  border-radius: 8px;
-  object-fit: contain;
-  box-shadow: $lightBoxShadowDark 0 4px 12px -5px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: none; // 去掉浮起感
 }
 .card-title {
   font-size: 1.5rem;
@@ -22,11 +22,11 @@
   flex-direction: row; // ✅ 横向排列图文
   gap: 2rem;
   align-items: flex-start;
-  margin-bottom: 3rem;
-  background-color: $lightBackground2;
   padding: 2rem;
-  border-radius: 10px;
-  border: 1px solid $lightBorder1;
+  border-radius: 0;              // ✅ 去圆角
+  border: none;                 // ✅ 去边框
+  background-color: transparent; // ✅ 融入背景
+  box-shadow: none;             // ✅ 去掉卡片阴影
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -45,6 +45,9 @@
 .project-detail {
   flex: 1;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -53,12 +56,8 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
-  flex: 0 0 260px;
-  max-width: 260px;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  flex: 1;
+  max-width: 50%;
 }
 
 .projects-container {
