@@ -1,30 +1,34 @@
 @import "../../_globalColor";
 
 .card-image {
+  width: 100%;
   max-width: 100%;
   height: auto;
-  width: 250px;
+  border-radius: 8px;
+  box-shadow: $lightBoxShadowDark 0 4px 12px -5px;
 }
 .card-title {
   color: $titleColor;
-  font-size: 22px;
-  line-height: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  margin: 15px 0 0 0;
+  margin: 0 0 1rem 0;
 }
 .card-subtitle {
   color: $cardSubtitle;
-  font-size: 17px;
-  line-height: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
 }
 .project-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row; // ✅ 改成水平排列
+  align-items: flex-start;
   background-color: $lightBackground2;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
-  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 2rem;
 }
 .project-card-light {
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
@@ -41,7 +45,8 @@
 }
 
 .project-detail {
-  text-align: center;
+  flex: 1;
+  text-align: left; // ✅ 左对齐
 }
 .project-card-light:hover {
   box-shadow: $lightBoxShadowDark 0px 20px 30px -10px;
@@ -50,12 +55,11 @@
   box-shadow: 0px 20px 30px -10px $darkBoxShadow;
 }
 .project-image {
-  position: relative;
-  height: 250px;
-  overflow: hidden;
+  flex: 0 0 280px; // 固定宽度
+  height: auto;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .projects-container {
@@ -66,25 +70,39 @@
 
 .project-card-footer span.project-tag {
   background: $buttonColor;
-  color: $lightBackground3;
-  vertical-align: middle;
-  align-items: center;
-  border-radius: 4px;
-  display: inline-flex;
-  font-size: 0.75rem;
-  height: 2em;
-  justify-content: center;
-  white-space: nowrap;
-  line-height: 1.5;
-  margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
   cursor: pointer;
-  transition: 0.2s ease-in;
+  margin-right: 1rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: darken($buttonColor, 10%);
+  }
 }
 
 @media (max-width: 768px) {
-  .project-subtitle {
-    font-size: 16px;
+  .project-card {
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+  }
+
+  .project-image {
+    width: 100%;
+  }
+
+  .project-detail {
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+
+  .card-subtitle {
+    font-size: 1rem;
   }
 }

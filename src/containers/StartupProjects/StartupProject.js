@@ -39,47 +39,33 @@ export default function StartupProject() {
                   key={i}
                   className={
                     isDark
-                      ? "dark-mode project-card project-card-dark"
-                      : "project-card project-card-light"
+                      ? "dark-mode project-row project-row-dark"
+                      : "project-row project-row-light"
                   }
                 >
                   {project.image ? (
-                    <div className="project-image">
+                    <div className="project-image-vertical">
                       <img
                         src={project.image}
                         alt={project.projectName}
-                        className="card-image"
-                      ></img>
+                        className="project-img"
+                      />
                     </div>
                   ) : null}
-                  <div className="project-detail">
-                    <h5
-                      className={isDark ? "dark-mode card-title" : "card-title"}
-                    >
-                      {project.projectName}
-                    </h5>
-                    <p
-                      className={
-                        isDark ? "dark-mode card-subtitle" : "card-subtitle"
-                      }
-                    >
-                      {project.projectDesc}
-                    </p>
+                  <div className="project-text-vertical">
+                    <h3 className="project-title">{project.projectName}</h3>
+                    <p className="project-desc">{project.projectDesc}</p>
                     {project.footerLink ? (
-                      <div className="project-card-footer">
-                        {project.footerLink.map((link, i) => {
-                          return (
-                            <span
-                              key={i}
-                              className={
-                                isDark ? "dark-mode project-tag" : "project-tag"
-                              }
-                              onClick={() => openUrlInNewTab(link.url)}
-                            >
-                              {link.name}
-                            </span>
-                          );
-                        })}
+                      <div className="project-links">
+                        {project.footerLink.map((link, i) => (
+                          <span
+                            key={i}
+                            className="project-button"
+                            onClick={() => openUrlInNewTab(link.url)}
+                          >
+                            {link.name}
+                          </span>
+                        ))}
                       </div>
                     ) : null}
                   </div>
