@@ -63,9 +63,9 @@
 }
 
 .projects-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .project-card-footer span.project-tag {
