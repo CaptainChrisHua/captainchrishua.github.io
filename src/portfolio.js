@@ -197,8 +197,17 @@ const Projects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"), // 建议替换成你的Code Review Copilot Logo
       projectName: "Code Review Copilot",
-      projectDesc:
-        "Intelligent code review assistant powered by ChatGPT and Github Actions. Improved review efficiency by 60% via an automated pipeline—fetching git diff, invoking LLMs for code review, storing results, and sending notifications. SDK packaged for seamless integration.",
+      projectDesc: [
+        emoji(
+          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+        ),
+        emoji(
+          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+        ),
+        emoji(
+          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+        )
+      ],
       footerLink: [
         {
           name: "View on GitHub",
@@ -209,8 +218,17 @@ const Projects = {
     {
       image: require("./assets/images/la-moments.png"), // 建议换成LA-Moments截图
       projectName: "LA-Moments Photo Blogging Platform",
-      projectDesc:
-        "A full-stack MERN platform for photography blogging, featuring Google OAuth login, Redux state management, and responsive UI. Deployed on AWS EC2, supporting post creation, browsing, and interaction. CI/CD automated with GitHub Actions.",
+      projectDesc: [
+        emoji(
+          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+        ),
+        emoji(
+          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+        ),
+        emoji(
+          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+        )
+      ],
       footerLink: [
         {
           name: "Visit Website",
@@ -225,8 +243,17 @@ const Projects = {
     {
       image: require("./assets/images/rbac1.png"), // 建议换成RBAC相关Logo或界面截图
       projectName: "General RBAC Platform",
-      projectDesc:
-        "A comprehensive RBAC system built with Java, Spring Boot, React.js, and Docker, supporting operation logs, permission management, and RESTful APIs. Integrated Spring Security and EhCache, reducing latency by 35%. Deployed via Docker on AWS EC2.",
+      projectDesc: [
+        emoji(
+          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+        ),
+        emoji(
+          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+        ),
+        emoji(
+          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+        )
+      ],
       footerLink: [
         {
           name: "Visit Website",
