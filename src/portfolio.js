@@ -192,20 +192,20 @@ const openSource = {
 
 const Projects = {
   title: "Projects",
-  subtitle: "Full-stack products & tools I architected, built, and deployed.",
+  subtitle: "",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"), // 建议替换成你的Code Review Copilot Logo
       projectName: "Code Review Copilot",
       projectDesc: [
         emoji(
-          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Architected and developed an intelligent Code Review assistant based on ChatGPT, Github Actions, improving the efficiency by 60%."
         ),
         emoji(
-          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Orchestrated the entire process using Design Patterns (Pipeline Pattern), including pulling the SDK jar, retrieving the git diff content, invoking ChatGPT APIs for Code Review, storing the records, and sending notifications"
         ),
         emoji(
-          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Optimized the code by Domain-Driven Design (DDD) based on Spring Boot, and packaged the project as an SDK jar to reduce the cost of integration and usage."
         )
       ],
       tags: ["Full Stack", "GenAI"],
@@ -221,13 +221,13 @@ const Projects = {
       projectName: "LA-Moments Photo Blogging Platform",
       projectDesc: [
         emoji(
-          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Developed a full-stack photography blogging platform using the MERN stack (MongoDB, Express.js, React.js, Node.js), enabling users to create, view, and interact with photography posts."
         ),
         emoji(
-          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Built a responsive front-end with React.js and Material-UI, leveraging Redux for efficient state management to handle user interactions, incorporated user authentication with Google OAuth, and secured data management with MongoDB and Express.js."
         ),
         emoji(
-          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Deployed the platform on AWS EC2. Integrated GitHub Actions CI/CD pipelines and automated testing tools, including Jest and Mockingoose."
         )
       ],
       tags: ["Full Stack"],
@@ -247,13 +247,13 @@ const Projects = {
       projectName: "General RBAC Platform",
       projectDesc: [
         emoji(
-          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Designed and implemented a comprehensive role-based access control (RBAC) system with operation logging functionality, including database schema design for tracking user activities and permissions management."
         ),
         emoji(
-          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Developed the front-end interface using React.js and LayUI, built back-end services with Java, SpringBoot, and MyBatis, and implemented RESTful APIs for role configuration and permission validation. Deployed the application on AWS EC2 using Docker"
         ),
         emoji(
-          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Integrated Spring Security for fine-grained permission controls, with EhCache memory caching, reducing interface latency by 35%"
         )
       ],
       tags: ["Full Stack"],
