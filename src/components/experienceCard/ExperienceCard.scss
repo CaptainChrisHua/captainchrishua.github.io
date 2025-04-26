@@ -113,12 +113,17 @@
 }
 
 .experience-text-desc {
-  text-align: center;
+  text-align: left;
 }
 
 .experience-text-details {
   padding: 1.5rem;
   margin-top: 2rem;
+}
+
+.dark-mode li.subTitle {
+  color: #ccc; // 可选：深色模式下字体变亮
+  margin-bottom: 0.75rem;
 }
 
 /* Media Query */
