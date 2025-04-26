@@ -156,7 +156,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Qizhidao Network Technology",
-      companylogo: require("./assets/images/Qizhidao.png"),
+      companylogo: require("./assets/images/qizhidao.webp"),
       date: "December 2021 – January 2023",
       desc: "Architected and optimized large-scale enterprise recommendation systems and algorithm platforms.",
       descBullets: [
