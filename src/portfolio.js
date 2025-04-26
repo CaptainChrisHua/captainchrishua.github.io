@@ -124,7 +124,7 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "AI/ML/LLM",
+      Stack: "GenAI/ML/DL",
       progressPercentage: "80%"
     },
     {
@@ -282,50 +282,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Coursera Algorithms Specialization",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Completed Stanford University's 'Algorithms' Specialization on Coursera, covering divide-and-conquer, graph algorithms, greedy methods, dynamic programming, and NP-completeness.",
+      image: require("./assets/images/Coursera Algorithms.png"),
+      imageAlt: "Stanford University Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Certification",
+          url: "https://coursera.org/verify/specialization/6RV482LWW5XJ"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Coursera Data Structures and Algorithms Specialization",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed UC San Diego's 'Data Structures and Algorithms' Specialization on Coursera, mastering fundamental and advanced algorithms, data structures, graph theory, string algorithms, and a Capstone project.",
+      image: require("./assets/images/Coursera Data Structures & Algorithms.png"),
+      imageAlt: "UC San Diego Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "View Certification",
+          url: "https://coursera.org/verify/specialization/67TL73BY9AEC"
         }
       ]
     }
