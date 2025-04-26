@@ -43,8 +43,8 @@
 .education-roundedimg {
   object-fit: cover;
   margin-right: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 8rem;
+  height: 8rem;
   box-shadow: 0 0.5rem 1rem $lightBoxShadowDarker;
   border-radius: 50%;
 }
@@ -56,7 +56,7 @@
 .education-text-subHeader {
   color: $textColor;
   font-weight: 700;
-  font-size: 19px;
+  font-size: 22px;
   margin: 0px;
   padding-top: 0.8rem;
   line-height: normal;
@@ -64,7 +64,7 @@
 
 .education-text-duration {
   color: $titleColor;
-  font-size: 19px;
+  font-size: 20px;
   margin: 0px;
   padding-top: 0.5rem;
 }
@@ -96,8 +96,13 @@
     font-size: 16px;
   }
   .education-text-school {
-    font-size: 20px;
-    height: 23px;
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 32px;
   }
   .education-text-duration {
     font-size: 16px;
