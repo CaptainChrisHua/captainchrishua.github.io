@@ -3,6 +3,7 @@
 .education-card {
   display: flex;
   flex-direction: row;
+  margin-bottom: 2rem;
 }
 
 .education-card:hover + .education-card-border {
