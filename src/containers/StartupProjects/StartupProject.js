@@ -71,8 +71,8 @@ export default function StartupProject() {
                       <p
                         className={
                           isDark
-                            ? "dark-mode subTitle card-subtitle"
-                            : "subTitle card-subtitle"
+                            ? "dark-mode project-card-subtitle"
+                            : "project-card-subtitle"
                         }
                       >
                         {project.projectDesc}
