@@ -199,15 +199,16 @@ const Projects = {
       projectName: "Code Review Copilot",
       projectDesc: [
         emoji(
-          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
         ),
         emoji(
-          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
         ),
         emoji(
-          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
         )
       ],
+      tags: ["Full Stack", "GenAI"],
       footerLink: [
         {
           name: "View on GitHub",
@@ -220,15 +221,16 @@ const Projects = {
       projectName: "LA-Moments Photo Blogging Platform",
       projectDesc: [
         emoji(
-          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
         ),
         emoji(
-          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
         ),
         emoji(
-          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
         )
       ],
+      tags: ["Full Stack"],
       footerLink: [
         {
           name: "Visit Website",
@@ -245,15 +247,16 @@ const Projects = {
       projectName: "General RBAC Platform",
       projectDesc: [
         emoji(
-          "⚡ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
+          "➤ Engineered a scalable enterprise recommendation engine, processing 8M+ daily requests at 2000 TPS"
         ),
         emoji(
-          "⚡ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
+          "➤ Designed an MLOps workflow replacing Cloudera, saving $300K annually in licensing cost"
         ),
         emoji(
-          "⚡ Developed a healthcare platform serving 40+ facilities and 100K+ users"
+          "➤ Developed a healthcare platform serving 40+ facilities and 100K+ users"
         )
       ],
+      tags: ["Full Stack"],
       footerLink: [
         {
           name: "Visit Website",

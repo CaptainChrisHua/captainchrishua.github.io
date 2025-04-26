@@ -81,6 +81,34 @@
   }
 }
 
+.filter-buttons {
+  margin-bottom: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #6c63ff;
+  background-color: transparent;
+  color: #6c63ff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.filter-button.active {
+  background-color: #6c63ff;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
